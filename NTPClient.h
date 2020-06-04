@@ -103,7 +103,7 @@ class NTPClient {
      */
     void end();
 
-    /**
+    /**version: sanusb.org
     * Replace the NTP-fetched time with seconds since Jan. 1, 1970
     */
     void setEpochTime(unsigned long secs);
