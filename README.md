@@ -9,9 +9,7 @@ Download the repository https://github.com/SanUSB/NTPClient , Arduino IDE -> Ske
 To use, Unzip the .zip folder and access the examples folder.
 
 
-More details at: 
-
- * https://youtu.be/vyq2sJE_DwM
+More details at https://youtu.be/vyq2sJE_DwM and [Tutorial in Portuguese](https://github.com/SanUSB/NTPClient/tree/master/miscellaneous/Tutorial.pdf).
 
 This topic is very relevant in real practical projects. Generally, in IoT automatic processes, timers and/or Real-time clocks (RTC) are used for scheduled process tasks.
 
