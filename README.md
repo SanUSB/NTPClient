@@ -30,7 +30,8 @@ As for ESP microcontrollers timers, we can classify them as:
 
 As for Real-time clocks (RTC) applied in IoT systems, we can classify them as:
 
-**c. RTC Online:** Based on NTP (Network Time Protocol). [aTimerHardwareESP32 (https://github.com/SanUSB/NTPClient/tree/master/examples/aTimerHardwareESP32), [aTimerHardwareESP8266](https://github.com/SanUSB/NTPClient/tree/master/examples/aTimerHardwareESP8266)
+**c. RTC Online:** Based on NTP (Network Time Protocol) [aTimerHardwareESP32](https://github.com/SanUSB/NTPClient/tree/master/examples/aTimerHardwareESP32) , 
+[aTimerHardwareESP8266](https://github.com/SanUSB/NTPClient/tree/master/examples/aTimerHardwareESP8266)
 
 Brazil has the NTP.br project with the objective of offering conditions for Internet servers to be synchronized with Brazilian Legal Time. NTP public servants in Brazil from stratum 2 of NTP.br are: *a.ntp.br*, *b.ntp.br* and *c.ntp.br*.
 
