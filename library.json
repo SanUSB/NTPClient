@@ -1,7 +1,7 @@
 {
   "name": "NTPClient",
   "keywords": "ntp, client, time",
-  "description": "A NTPClient to connect to a time server",
+  "description": "A ESP32/ESP8266 NTPClient to connect to a time server",
   "authors":
   [
     {
