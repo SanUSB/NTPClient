@@ -1,4 +1,4 @@
-# ESP32/ESP8266 Timers ans Real Time Clock (RTC) [![N|Solid](http://sanusb.blogspot.com.br/favicon.ico)](http://sanusb.org/)
+# ESP32/ESP8266 Timers and Real-Time Clock (RTC) [![N|Solid](http://sanusb.blogspot.com.br/favicon.ico)](http://sanusb.org/)
 
 
 In this teaching material, a brief review of timers and Real-time cloks/calenders (RTC) available for ESP32 and ESP8266 microcontroller families is proposed. With the exception of the internal RTC example, which is a peripheral available only in ESP32, all other didactic examples in the repository have been tested and work in both ESP32 and ESP8266, being a relevant feature for several real applications. 
