@@ -49,4 +49,4 @@ suggested in this research:
 
 ![](https://github.com/SanUSB/NTPClient/blob/master/Images/Fig.png)
 
-Have fun!*
+*Have fun!*
