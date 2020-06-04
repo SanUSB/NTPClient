@@ -38,11 +38,11 @@ They are powered by primary servers (stratum 1), which are also publicly accessi
 
 **d. Offline RTC:**
 
-**d.i.** Using real internal RTC, in the case of ESP32;
+**d.i.** Using real internal RTC, in the case of ESP32.
 
-**d.ii.** Emulated via software, for example, using the ticker library (functional). It is worth mentioning that since ESP8266 does not have an internal RTC, emulating an RTC via software can be a viable possibility, especially for systems that require a lot of accuracy and level of seconds, considering that this procedure was used in a project to control lab RFID access and it worked as expected. A test on the comparison of this system with the NTP is shown in the video.
+**d.ii.** Emulated via software, for example, using the ticker library (functional). It is worth mentioning that since ESP8266 does not have an internal RTC, emulating an RTC via software can be a viable possibility, especially for systems that require a lot of accuracy and level of seconds, considering that this procedure was used in a project to control lab RFID access and it worked as expected. A test on the comparison of this system with the NTP is shown in the video https://youtu.be/vyq2sJE_DwM.
 
-**d.iii.** Using real external RTC, such as DS1307;
+**d.iii.** Using real external RTC, such as DS1307.
 
 **e. Hybrid RTC:** Which uses, for example, NTP to reference and / or update clocks in real time (RTC) offline. Below, a graph with a summary of the types 
 suggested in this research:
