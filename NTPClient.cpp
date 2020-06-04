@@ -220,7 +220,7 @@ void NTPClient::sendNTPPacket() {
   this->_packetBuffer[14]  = 0x49;
   this->_packetBuffer[15]  = 0x52;
 
-  // all NTP fields have been given values, now
+  // all NTP fields have been given values, now. version: sanusb.org
   // you can send a packet requesting a timestamp:
   this->_udp->beginPacket(this->_poolServerName, 123); //NTP requests are to port 123
   this->_udp->write(this->_packetBuffer, NTP_PACKET_SIZE);
