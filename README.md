@@ -53,6 +53,6 @@ emulating an RTC via software can be a viable possibility, especially for system
 **e. Hybrid RTC:** Which uses, for example, NTP to reference and / or update clocks in real time (RTC) offline. Below, a graph with a summary of the types 
 suggested in this research:
 
-![](https://github.com/SanUSB/SmallestRpiSetup/blob/master/images/setup6.png)
+![](https://github.com/SanUSB/NTPClient/blob/master/Images/Fig.png)
 
 *Have fun!*
