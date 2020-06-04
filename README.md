@@ -33,7 +33,7 @@ They are timers emulated by the microcontroller processor. The Ticker library is
 
 As for Real-time clocks (RTC) applied in IoT systems, we can classify them as:
 
-**c. RTC Online:** [cNTP](https://github.com/SanUSB/NTPClient/tree/master/examples/cNTP) , 
+**c. Online RTC:** [cNTP](https://github.com/SanUSB/NTPClient/tree/master/examples/cNTP) , 
 [NTPClient](https://github.com/SanUSB/NTPClient/tree/master/examples/cNTPclient).
 
 They are based on NTP (Network Time Protocol)
