@@ -34,14 +34,14 @@ void loop()
     Serial.print(':');    
     minuto = (tt % 3600) / 60;                      
     if ( minuto < 10 ) {
-      // Adicona o caractere '0' entre os minutos 0 e 9 iniciais.
+      // Adiciona o caractere '0' entre os minutos 0 e 9 iniciais.
       Serial.print('0');
     }
     Serial.print(minuto); // Pega-se o resto da divisão de horas inteiras e divide por 60, o inteiro são os minutos (3600 equals secs per hour)
     Serial.print(':');
     segundo = tt % 60;
     if ( segundo < 10 ) {
-      // Adicona o caractere '0' entre os segundos 0 e 9 iniciais.
+      // Adiciona o caractere '0' entre os segundos 0 e 9 iniciais.
       Serial.print('0');
     }
     Serial.println(segundo); // Pega-se o resto da divisão de minutos, o que sobra são os segundos    
