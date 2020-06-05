@@ -24,7 +24,8 @@ As for ESP microcontrollers timers, we can classify them as:
 **a. Hardware:** [aTimerHardwareESP32](https://github.com/SanUSB/NTPClient/tree/master/examples/aTimerHardwareESP32) , 
 [aTimerHardwareESP8266](https://github.com/SanUSB/NTPClient/tree/master/examples/aTimerHardwareESP8266).
 
-They are real peripherals contained in the internal hardware of the microcontrollers
+They are real peripherals embedded in ESP32 microcontrollers.
+
 
 **b. Emulated by software:** [bTimerSoftwareTicker](https://github.com/SanUSB/NTPClient/tree/master/examples/bTimerSoftwareTicker).
 
@@ -61,6 +62,6 @@ Emulated via software, for example, using the ticker library (functional). It is
 Which uses, for example, NTP to reference and / or update clocks in real time (RTC) offline. Below, a graph with a summary of the types 
 suggested in this research:
 
-![](https://github.com/SanUSB/NTPClient/blob/master/Images/Fig.png)
+![](https://github.com/SanUSB/NTPClient/blob/master/miscellaneous/Fig.png)
 
 *Have fun!*
